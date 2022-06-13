@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Laravel Model Controller</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -22,8 +22,8 @@
                 <div class="card col-3 m-2" style="">
                     <img class="card-img-top w-50 align-self-center" src="https://img.wallpapic.it/i0389-833-517/medium/halloween-film-notte-buio-sfondo.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Titolo: {{$movie->title}}</h5>
-                      <h6 class="card-title mb-5">Titolo Originale: {{$movie->original_title}}</h6>
+                      <h3 class="card-title">Titolo: {{$movie->title}}</h5>
+                      <h4 class="card-title mb-5">Titolo Originale: {{$movie->original_title}}</h4>
                       <div class="card-text">
                         <p>Nazionalità: {{$movie->nationality}}</p>
                         <p>Data di Uscita: {{$movie->date}}</p>
